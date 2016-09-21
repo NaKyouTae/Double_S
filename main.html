@@ -1,92 +1,204 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<style>
-			a {
-				text-decoration : none;
-			}
-			li {
-				list-style : none;
-			}
-			#wrap {
-				max-width : 800px;
-				margin : 10px auto;
-			}
-			#header {
-				position : relative;
-			}
-			#logo_area {
-				position : absolute;
-			}
-			#header_login {
-				position : absolute;
-				right : 0; 
-			}
-			#header_login > ul  { 
-				overflow : hidden;
-				padding : 0;
-				margin : 0;
-			}
-			#header_login > ul > li {float : left;}
-			#header_login > ul > li > a {
-				display : block;
-				text-align : center;
-				width : 80px; height : 30px;
-				line-height : 30px;
-				color : black;
-			}
-			#header_login > ul > li > a:hover {
-				color : #AAAAAA;
-			}
-			#category {
-				position : absolute;
-				right : 0; top : 30px;
-			}
-			#category > ul { 
-				overflow : hidden;
-				padding : 0;
-			}
-			#category > ul > li { float : left;}
-			#category > ul > li > a {
-				display : block;
-				text-align : center;
-				width : 100px; height : 30px;
-				line-height : 30px;
-				background-color : #C4DEFF;
-				color : #4C4C4C;
-				border : 1px solid white;
-			}
-			#category > ul > li > a:hover { 
-				color : #212121;
-				background-color : #B2CCFF;
-			}
-			#logo {
-				width : 250px; height : 50px;		
-			}
-		</style>
-	</head>
-	<body>
-		<div id="wrap">
-			<div id="header">
-				<div id="logo_area">
-					<img src="logo.png" id="logo">
-				</div>
-				<div id="header_login">
-					<ul>
-						<li><a href="#"> ∑Œ±◊¿Œ </a></li>
-						<li><a href="#"> »∏ø¯∞°¿‘ </a></li>
-					</ul>
-				</div>
-				<div id="category">
-					<ul>
-						<li><a href="#">√•</a></li>
-						<li><a href="#">∆©∆º/∆©≈Õ</a></li>
-						<li><a href="#">ø¯∑Î</a></li>
-						<li><a href="#">¿Â≈Õ</a></li>
-						<li><a href="#">¿ΩΩƒ¡°</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>project</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        #wrap {
+            max-width: 800px;
+            margin: 10px auto;
+        }
+
+        #header {
+            position: relative;
+            height: 100px;
+        }
+
+        #logo_area {
+            position: absolute;
+        }
+
+        #header_login {
+            position: absolute;
+            right: 0;
+        }
+
+        #header_login>ul {
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+
+        #header_login>ul>li {
+            float: left;
+        }
+
+        #header_login>ul>li>a {
+            display: block;
+            text-align: center;
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            color: black;
+        }
+
+        #header_login>ul>li>a:hover {
+            color: #AAAAAA;
+        }
+
+        #category {
+            position: absolute;
+            right: 0;
+            top: 30px;
+        }
+
+        #category>ul {
+            overflow: hidden;
+            padding: 0;
+        }
+
+        #category>ul>li {
+            float: left;
+        }
+
+        #category>ul>li>a {
+            display: block;
+            text-align: center;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            background-color: #C4DEFF;
+            color: #4C4C4C;
+            border: 1px solid white;
+        }
+
+        #category>ul>li>a:hover {
+            color: #212121;
+            background-color: #B2CCFF;
+        }
+
+        #logo {
+            width: 250px;
+            height: 83px;
+        }
+
+        .Content {
+            padding: 10px;
+            height: 700px;
+            background-color: #123;
+            border-color: block;
+        }
+
+        .floor {
+            height: 200px;
+            background-color: red;
+            margin: 10px;
+            padding: 10px;
+
+        }
+        .Content1{
+          width: 70%;
+          height: 200px;
+          background-color: pink;
+          float: right;
+          display:inline-block;
+
+        }
+        .Content2{
+          width: 30%;
+          height: 200px;
+          background-color: blue;
+          float: right;
+          display:inline-block;
+        }
+        .Content3{
+          width: 30%;
+          height: 200px;
+          background-color: blue;
+          float: right;
+          display:inline-block;
+        }
+        .Content4{
+          width: 70%;
+          height: 200px;
+          background-color: pink;
+          float: right;
+          display:inline-block;
+        }
+        .Content5{
+          width: 50%;
+          height: 200px;
+          background-color: pink;
+          float: right;
+          display:inline-block;
+        }
+        .Content6{
+          width: 50%;
+          height: 200px;
+          background-color: blue;
+          float: right;
+          display:inline-block;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="logo_area">
+                <img src="img/logo.png" id="logo">
+            </div>
+            <div id="header_login">
+                <ul>
+                    <li><a href="#"> Î°úÍ∑∏Ïù∏ </a></li>
+                    <li><a href="#"> ÌöåÏõêÍ∞ÄÏûÖ </a></li>
+                </ul>
+            </div>
+            <div id="category">
+                <ul>
+                    <li><a href="#">Ï±Ö</a></li>
+                    <li><a href="#">ÌäúÌÑ∞ÎßÅ</a></li>
+                    <li><a href="#">ÏõêÎ£∏</a></li>
+                    <li><a href="#">Ïû•ÌÑ∞</a></li>
+                    <li><a href="#">Ï£ºÎ≥ÄÏ†ïÎ≥¥</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Content">
+        <div class="floor">
+            <div class="Content1"></div>
+            <div class="Content2"></div>
+        </div>
+        <div class="floor">
+            <div class="Content3"></div>
+            <div class="Content4"></div>
+        </div>
+        <div class="floor">
+            <div class="Content5"></div>
+            <div class="Content6"></div>
+        </div>
+    </div>
+</body>
+
 </html>
