@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			a {
+				text-decoration : none;
+			}
+			li {
+				list-style : none;
+			}
+			#wrap {
+				max-width : 800px;
+				margin : 10px auto;
+			}
+			#header {
+				position : relative;
+			}
+			#logo_area {
+				position : absolute;
+			}
+			#header_login {
+				position : absolute;
+				right : 0; 
+			}
+			#header_login > ul  { 
+				overflow : hidden;
+				padding : 0;
+				margin : 0;
+			}
+			#header_login > ul > li {float : left;}
+			#header_login > ul > li > a {
+				display : block;
+				text-align : center;
+				width : 80px; height : 30px;
+				line-height : 30px;
+				color : black;
+			}
+			#header_login > ul > li > a:hover {
+				color : #AAAAAA;
+			}
+			#category {
+				position : absolute;
+				right : 0; top : 30px;
+			}
+			#category > ul { 
+				overflow : hidden;
+				padding : 0;
+			}
+			#category > ul > li { float : left;}
+			#category > ul > li > a {
+				display : block;
+				text-align : center;
+				width : 100px; height : 30px;
+				line-height : 30px;
+				background-color : #C4DEFF;
+				color : #4C4C4C;
+				border : 1px solid white;
+			}
+			#category > ul > li > a:hover { 
+				color : #212121;
+				background-color : #B2CCFF;
+			}
+			#logo {
+				width : 250px; height : 50px;		
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="logo_area">
+					<img src="logo.png" id="logo">
+				</div>
+				<div id="header_login">
+					<ul>
+						<li><a href="#"> 로그인 </a></li>
+						<li><a href="#"> 회원가입 </a></li>
+					</ul>
+				</div>
+				<div id="category">
+					<ul>
+						<li><a href="#">책</a></li>
+						<li><a href="#">튜티/튜터</a></li>
+						<li><a href="#">원룸</a></li>
+						<li><a href="#">장터</a></li>
+						<li><a href="#">음식점</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
